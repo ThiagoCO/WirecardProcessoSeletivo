@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DD1932722430E4A00304761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932622430E4A00304761 /* AppDelegate.swift */; };
+		2DD1932922430E4A00304761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932822430E4A00304761 /* ViewController.swift */; };
+		2DD1932C22430E4A00304761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1932A22430E4A00304761 /* Main.storyboard */; };
+		2DD1932F22430E4A00304761 /* WirecardTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */; };
+		2DD1933122430E4C00304761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1933022430E4C00304761 /* Assets.xcassets */; };
+		2DD1933422430E4C00304761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1933222430E4C00304761 /* LaunchScreen.storyboard */; };
+		2DD1933F22430E4C00304761 /* WirecardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1933E22430E4C00304761 /* WirecardTestTests.swift */; };
+		2DD1934A22430E4C00304761 /* WirecardTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1934922430E4C00304761 /* WirecardTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DD1933B22430E4C00304761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD1931B22430E4A00304761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD1932222430E4A00304761;
+			remoteInfo = WirecardTest;
+		};
+		2DD1934622430E4C00304761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD1931B22430E4A00304761 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD1932222430E4A00304761;
+			remoteInfo = WirecardTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DD1932322430E4A00304761 /* WirecardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirecardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD1932622430E4A00304761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DD1932822430E4A00304761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DD1932B22430E4A00304761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DD1932E22430E4A00304761 /* WirecardTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WirecardTest.xcdatamodel; sourceTree = "<group>"; };
+		2DD1933022430E4C00304761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD1933322430E4C00304761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DD1933522430E4C00304761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD1933A22430E4C00304761 /* WirecardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirecardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD1933E22430E4C00304761 /* WirecardTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirecardTestTests.swift; sourceTree = "<group>"; };
+		2DD1934022430E4C00304761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD1934522430E4C00304761 /* WirecardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirecardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD1934922430E4C00304761 /* WirecardTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirecardTestUITests.swift; sourceTree = "<group>"; };
+		2DD1934B22430E4C00304761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DD1932022430E4A00304761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1933722430E4C00304761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1934222430E4C00304761 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD1931A22430E4A00304761 = {
+			isa = PBXGroup;
+			children = (
+				2DD1932522430E4A00304761 /* WirecardTest */,
+				2DD1933D22430E4C00304761 /* WirecardTestTests */,
+				2DD1934822430E4C00304761 /* WirecardTestUITests */,
+				2DD1932422430E4A00304761 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DD1932422430E4A00304761 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1932322430E4A00304761 /* WirecardTest.app */,
+				2DD1933A22430E4C00304761 /* WirecardTestTests.xctest */,
+				2DD1934522430E4C00304761 /* WirecardTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DD1932522430E4A00304761 /* WirecardTest */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1932622430E4A00304761 /* AppDelegate.swift */,
+				2DD1932822430E4A00304761 /* ViewController.swift */,
+				2DD1932A22430E4A00304761 /* Main.storyboard */,
+				2DD1933022430E4C00304761 /* Assets.xcassets */,
+				2DD1933222430E4C00304761 /* LaunchScreen.storyboard */,
+				2DD1933522430E4C00304761 /* Info.plist */,
+				2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */,
+			);
+			path = WirecardTest;
+			sourceTree = "<group>";
+		};
+		2DD1933D22430E4C00304761 /* WirecardTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1933E22430E4C00304761 /* WirecardTestTests.swift */,
+				2DD1934022430E4C00304761 /* Info.plist */,
+			);
+			path = WirecardTestTests;
+			sourceTree = "<group>";
+		};
+		2DD1934822430E4C00304761 /* WirecardTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1934922430E4C00304761 /* WirecardTestUITests.swift */,
+				2DD1934B22430E4C00304761 /* Info.plist */,
+			);
+			path = WirecardTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DD1932222430E4A00304761 /* WirecardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD1934E22430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTest" */;
+			buildPhases = (
+				2DD1931F22430E4A00304761 /* Sources */,
+				2DD1932022430E4A00304761 /* Frameworks */,
+				2DD1932122430E4A00304761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirecardTest;
+			productName = WirecardTest;
+			productReference = 2DD1932322430E4A00304761 /* WirecardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DD1933922430E4C00304761 /* WirecardTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD1935122430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTestTests" */;
+			buildPhases = (
+				2DD1933622430E4C00304761 /* Sources */,
+				2DD1933722430E4C00304761 /* Frameworks */,
+				2DD1933822430E4C00304761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD1933C22430E4C00304761 /* PBXTargetDependency */,
+			);
+			name = WirecardTestTests;
+			productName = WirecardTestTests;
+			productReference = 2DD1933A22430E4C00304761 /* WirecardTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DD1934422430E4C00304761 /* WirecardTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD1935422430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTestUITests" */;
+			buildPhases = (
+				2DD1934122430E4C00304761 /* Sources */,
+				2DD1934222430E4C00304761 /* Frameworks */,
+				2DD1934322430E4C00304761 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD1934722430E4C00304761 /* PBXTargetDependency */,
+			);
+			name = WirecardTestUITests;
+			productName = WirecardTestUITests;
+			productReference = 2DD1934522430E4C00304761 /* WirecardTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DD1931B22430E4A00304761 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Thiago Cavalcante de Oliveira";
+				TargetAttributes = {
+					2DD1932222430E4A00304761 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2DD1933922430E4C00304761 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2DD1932222430E4A00304761;
+					};
+					2DD1934422430E4C00304761 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2DD1932222430E4A00304761;
+					};
+				};
+			};
+			buildConfigurationList = 2DD1931E22430E4A00304761 /* Build configuration list for PBXProject "WirecardTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DD1931A22430E4A00304761;
+			productRefGroup = 2DD1932422430E4A00304761 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DD1932222430E4A00304761 /* WirecardTest */,
+				2DD1933922430E4C00304761 /* WirecardTestTests */,
+				2DD1934422430E4C00304761 /* WirecardTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DD1932122430E4A00304761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1933422430E4C00304761 /* LaunchScreen.storyboard in Resources */,
+				2DD1933122430E4C00304761 /* Assets.xcassets in Resources */,
+				2DD1932C22430E4A00304761 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1933822430E4C00304761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1934322430E4C00304761 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DD1931F22430E4A00304761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1932922430E4A00304761 /* ViewController.swift in Sources */,
+				2DD1932722430E4A00304761 /* AppDelegate.swift in Sources */,
+				2DD1932F22430E4A00304761 /* WirecardTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1933622430E4C00304761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1933F22430E4C00304761 /* WirecardTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD1934122430E4C00304761 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1934A22430E4C00304761 /* WirecardTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DD1933C22430E4C00304761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD1932222430E4A00304761 /* WirecardTest */;
+			targetProxy = 2DD1933B22430E4C00304761 /* PBXContainerItemProxy */;
+		};
+		2DD1934722430E4C00304761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD1932222430E4A00304761 /* WirecardTest */;
+			targetProxy = 2DD1934622430E4C00304761 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DD1932A22430E4A00304761 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD1932B22430E4A00304761 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DD1933222430E4C00304761 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD1933322430E4C00304761 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DD1934C22430E4C00304761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DD1934D22430E4C00304761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DD1934F22430E4C00304761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DD1935022430E4C00304761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DD1935222430E4C00304761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirecardTest.app/WirecardTest";
+			};
+			name = Debug;
+		};
+		2DD1935322430E4C00304761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WirecardTest.app/WirecardTest";
+			};
+			name = Release;
+		};
+		2DD1935522430E4C00304761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirecardTest;
+			};
+			name = Debug;
+		};
+		2DD1935622430E4C00304761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8UJX898RF;
+				INFOPLIST_FILE = WirecardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WirecardTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DD1931E22430E4A00304761 /* Build configuration list for PBXProject "WirecardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD1934C22430E4C00304761 /* Debug */,
+				2DD1934D22430E4C00304761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD1934E22430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD1934F22430E4C00304761 /* Debug */,
+				2DD1935022430E4C00304761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD1935122430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD1935222430E4C00304761 /* Debug */,
+				2DD1935322430E4C00304761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD1935422430E4C00304761 /* Build configuration list for PBXNativeTarget "WirecardTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD1935522430E4C00304761 /* Debug */,
+				2DD1935622430E4C00304761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DD1932E22430E4A00304761 /* WirecardTest.xcdatamodel */,
+			);
+			currentVersion = 2DD1932E22430E4A00304761 /* WirecardTest.xcdatamodel */;
+			path = WirecardTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DD1931B22430E4A00304761 /* Project object */;
+}
