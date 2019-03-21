@@ -99,6 +99,13 @@
 		2DD1932522430E4A00304761 /* WirecardTest */ = {
 			isa = PBXGroup;
 			children = (
+				2DD1935D224316FD00304761 /* Storyboards */,
+				2DD1935C224316F500304761 /* Views */,
+				2DD1935B224316E400304761 /* Supporting Files */,
+				2DD1935A2243168F00304761 /* Services */,
+				2DD193592243168800304761 /* ViewModels */,
+				2DD193582243167E00304761 /* ViewControllers */,
+				2DD193572243161B00304761 /* Models */,
 				2DD1932622430E4A00304761 /* AppDelegate.swift */,
 				2DD1932822430E4A00304761 /* ViewController.swift */,
 				2DD1932A22430E4A00304761 /* Main.storyboard */,
@@ -126,6 +133,55 @@
 				2DD1934B22430E4C00304761 /* Info.plist */,
 			);
 			path = WirecardTestUITests;
+			sourceTree = "<group>";
+		};
+		2DD193572243161B00304761 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DD193582243167E00304761 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2DD193592243168800304761 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2DD1935A2243168F00304761 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2DD1935B224316E400304761 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DD1935C224316F500304761 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DD1935D224316FD00304761 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTest;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WirecardTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.alura.WirecardTest;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.WirecardTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
