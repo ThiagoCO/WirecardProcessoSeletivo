@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D42466822431ACB0016AF5D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D42466722431ACB0016AF5D /* APIManager.swift */; };
+		2D52D17B22505E9B00495843 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52D17A22505E9B00495843 /* OrderDetailViewController.swift */; };
+		2D52D17D2250674400495843 /* OrderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52D17C2250674400495843 /* OrderDetailViewModel.swift */; };
+		2D52D17F22506D3A00495843 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52D17E22506D3A00495843 /* OrderDetail.swift */; };
+		2D6852CE224433E8002CFB55 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6852CD224433E8002CFB55 /* Token.swift */; };
+		2D6852D522444D62002CFB55 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6852D422444D62002CFB55 /* TextFieldCustom.swift */; };
+		2D6852D72245A215002CFB55 /* LoginViewController+LoginViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6852D62245A215002CFB55 /* LoginViewController+LoginViewDelegate.swift */; };
+		2D6852D92245A33B002CFB55 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6852D82245A33B002CFB55 /* LoginViewModel.swift */; };
+		2D6852DE2245F4BA002CFB55 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6852DD2245F4BA002CFB55 /* OrderListViewController.swift */; };
+		2D7C15D82251496D00A0EEF7 /* BorderedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C15D72251496D00A0EEF7 /* BorderedLabel.swift */; };
+		2D7C15DA2251577500A0EEF7 /* OrderDetailViewController+DetailViewDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C15D92251577500A0EEF7 /* OrderDetailViewController+DetailViewDelgate.swift */; };
+		2D965B44224C19E10035D72E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D965B43224C19E10035D72E /* Order.swift */; };
+		2DAF60A4224D6B4600F23689 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF60A3224D6B4600F23689 /* OrderCell.swift */; };
+		2DAF60A7224D6DF200F23689 /* OrderListViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF60A6224D6DF200F23689 /* OrderListViewController+TableView.swift */; };
+		2DAF60A9224DAB0F00F23689 /* CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF60A8224DAB0F00F23689 /* CustomTypes.swift */; };
 		2DD1932722430E4A00304761 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932622430E4A00304761 /* AppDelegate.swift */; };
-		2DD1932922430E4A00304761 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932822430E4A00304761 /* ViewController.swift */; };
+		2DD1932922430E4A00304761 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932822430E4A00304761 /* LoginViewController.swift */; };
 		2DD1932C22430E4A00304761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1932A22430E4A00304761 /* Main.storyboard */; };
 		2DD1932F22430E4A00304761 /* WirecardTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */; };
 		2DD1933122430E4C00304761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1933022430E4C00304761 /* Assets.xcassets */; };
 		2DD1933422430E4C00304761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1933222430E4C00304761 /* LaunchScreen.storyboard */; };
 		2DD1933F22430E4C00304761 /* WirecardTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1933E22430E4C00304761 /* WirecardTestTests.swift */; };
 		2DD1934A22430E4C00304761 /* WirecardTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1934922430E4C00304761 /* WirecardTestUITests.swift */; };
+		2DE8BA18224AE1A100352BBD /* OrderListViewController+OrderListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8BA17224AE1A100352BBD /* OrderListViewController+OrderListDelegate.swift */; };
+		2DE8BA1B224AE38A00352BBD /* ActivityIndicatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8BA1A224AE38A00352BBD /* ActivityIndicatorDelegate.swift */; };
+		2DE8BA1D224AF13D00352BBD /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE8BA1C224AF13D00352BBD /* OrderListViewModel.swift */; };
 		6902BD8C6FFECFCD84E33123 /* Pods_WirecardTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFFA3523D54CBF68A56D7B /* Pods_WirecardTestTests.framework */; };
 		7F329D25DCBFC65B73510BF3 /* Pods_WirecardTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52C91E482BD44162A10E8FA /* Pods_WirecardTest.framework */; };
 		A7B486FC22E757AD29A4C9F9 /* Pods_WirecardTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CCDAF7B4259EC65603D683 /* Pods_WirecardTestUITests.framework */; };
@@ -39,9 +57,24 @@
 
 /* Begin PBXFileReference section */
 		28EAB55446FB1768ABBA3C11 /* Pods-WirecardTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirecardTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WirecardTestUITests/Pods-WirecardTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D42466722431ACB0016AF5D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2D52D17A22505E9B00495843 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		2D52D17C2250674400495843 /* OrderDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewModel.swift; sourceTree = "<group>"; };
+		2D52D17E22506D3A00495843 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		2D6852CD224433E8002CFB55 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		2D6852D422444D62002CFB55 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		2D6852D62245A215002CFB55 /* LoginViewController+LoginViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewController+LoginViewDelegate.swift"; sourceTree = "<group>"; };
+		2D6852D82245A33B002CFB55 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2D6852DD2245F4BA002CFB55 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		2D7C15D72251496D00A0EEF7 /* BorderedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedLabel.swift; sourceTree = "<group>"; };
+		2D7C15D92251577500A0EEF7 /* OrderDetailViewController+DetailViewDelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderDetailViewController+DetailViewDelgate.swift"; sourceTree = "<group>"; };
+		2D965B43224C19E10035D72E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2DAF60A3224D6B4600F23689 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		2DAF60A6224D6DF200F23689 /* OrderListViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderListViewController+TableView.swift"; sourceTree = "<group>"; };
+		2DAF60A8224DAB0F00F23689 /* CustomTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTypes.swift; sourceTree = "<group>"; };
 		2DD1932322430E4A00304761 /* WirecardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirecardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD1932622430E4A00304761 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DD1932822430E4A00304761 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DD1932822430E4A00304761 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2DD1932B22430E4A00304761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD1932E22430E4A00304761 /* WirecardTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WirecardTest.xcdatamodel; sourceTree = "<group>"; };
 		2DD1933022430E4C00304761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +86,9 @@
 		2DD1934522430E4C00304761 /* WirecardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WirecardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD1934922430E4C00304761 /* WirecardTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WirecardTestUITests.swift; sourceTree = "<group>"; };
 		2DD1934B22430E4C00304761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE8BA17224AE1A100352BBD /* OrderListViewController+OrderListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderListViewController+OrderListDelegate.swift"; sourceTree = "<group>"; };
+		2DE8BA1A224AE38A00352BBD /* ActivityIndicatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorDelegate.swift; sourceTree = "<group>"; };
+		2DE8BA1C224AF13D00352BBD /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		48B56756712124EEDAC1CFFD /* Pods-WirecardTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirecardTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WirecardTestUITests/Pods-WirecardTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		50CCDAF7B4259EC65603D683 /* Pods_WirecardTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirecardTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		581730FF2028370D8813FAE4 /* Pods-WirecardTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirecardTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WirecardTest/Pods-WirecardTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +127,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D6852CF224439FF002CFB55 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				2D6852D422444D62002CFB55 /* TextFieldCustom.swift */,
+				2DAF60A8224DAB0F00F23689 /* CustomTypes.swift */,
+				2D7C15D72251496D00A0EEF7 /* BorderedLabel.swift */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
 		2DD1931A22430E4A00304761 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +162,8 @@
 		2DD1932522430E4A00304761 /* WirecardTest */ = {
 			isa = PBXGroup;
 			children = (
+				2DE8BA19224AE33C00352BBD /* Protocols */,
+				2D6852CF224439FF002CFB55 /* Customs */,
 				2DD1935D224316FD00304761 /* Storyboards */,
 				2DD1935C224316F500304761 /* Views */,
 				2DD1935B224316E400304761 /* Supporting Files */,
@@ -123,13 +171,6 @@
 				2DD193592243168800304761 /* ViewModels */,
 				2DD193582243167E00304761 /* ViewControllers */,
 				2DD193572243161B00304761 /* Models */,
-				2DD1932622430E4A00304761 /* AppDelegate.swift */,
-				2DD1932822430E4A00304761 /* ViewController.swift */,
-				2DD1932A22430E4A00304761 /* Main.storyboard */,
-				2DD1933022430E4C00304761 /* Assets.xcassets */,
-				2DD1933222430E4C00304761 /* LaunchScreen.storyboard */,
-				2DD1933522430E4C00304761 /* Info.plist */,
-				2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */,
 			);
 			path = WirecardTest;
 			sourceTree = "<group>";
@@ -155,6 +196,9 @@
 		2DD193572243161B00304761 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D6852CD224433E8002CFB55 /* Token.swift */,
+				2D965B43224C19E10035D72E /* Order.swift */,
+				2D52D17E22506D3A00495843 /* OrderDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +206,13 @@
 		2DD193582243167E00304761 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2DD1932822430E4A00304761 /* LoginViewController.swift */,
+				2D6852D62245A215002CFB55 /* LoginViewController+LoginViewDelegate.swift */,
+				2D6852DD2245F4BA002CFB55 /* OrderListViewController.swift */,
+				2DAF60A6224D6DF200F23689 /* OrderListViewController+TableView.swift */,
+				2DE8BA17224AE1A100352BBD /* OrderListViewController+OrderListDelegate.swift */,
+				2D52D17A22505E9B00495843 /* OrderDetailViewController.swift */,
+				2D7C15D92251577500A0EEF7 /* OrderDetailViewController+DetailViewDelgate.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -169,6 +220,9 @@
 		2DD193592243168800304761 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2D6852D82245A33B002CFB55 /* LoginViewModel.swift */,
+				2DE8BA1C224AF13D00352BBD /* OrderListViewModel.swift */,
+				2D52D17C2250674400495843 /* OrderDetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -176,6 +230,7 @@
 		2DD1935A2243168F00304761 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2D42466722431ACB0016AF5D /* APIManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -183,6 +238,10 @@
 		2DD1935B224316E400304761 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2DD1932622430E4A00304761 /* AppDelegate.swift */,
+				2DD1933022430E4C00304761 /* Assets.xcassets */,
+				2DD1933522430E4C00304761 /* Info.plist */,
+				2DD1932D22430E4A00304761 /* WirecardTest.xcdatamodeld */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,6 +249,7 @@
 		2DD1935C224316F500304761 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DAF60A3224D6B4600F23689 /* OrderCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,8 +257,18 @@
 		2DD1935D224316FD00304761 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				2DD1932A22430E4A00304761 /* Main.storyboard */,
+				2DD1933222430E4C00304761 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2DE8BA19224AE33C00352BBD /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8BA1A224AE38A00352BBD /* ActivityIndicatorDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		6F7CD67CBCE61A84D8661C2A /* Pods */ = {
@@ -235,6 +305,7 @@
 				2DD1931F22430E4A00304761 /* Sources */,
 				2DD1932022430E4A00304761 /* Frameworks */,
 				2DD1932122430E4A00304761 /* Resources */,
+				DF84DB43A42C6E112DF7CB96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -420,6 +491,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DF84DB43A42C6E112DF7CB96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WirecardTest/Pods-WirecardTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Money/Money.framework",
+				"${BUILT_PRODUCTS_DIR}/ValueCoding/ValueCoding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Money.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ValueCoding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WirecardTest/Pods-WirecardTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -427,9 +526,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD1932922430E4A00304761 /* ViewController.swift in Sources */,
+				2D42466822431ACB0016AF5D /* APIManager.swift in Sources */,
+				2D52D17F22506D3A00495843 /* OrderDetail.swift in Sources */,
+				2DE8BA1B224AE38A00352BBD /* ActivityIndicatorDelegate.swift in Sources */,
+				2D6852D72245A215002CFB55 /* LoginViewController+LoginViewDelegate.swift in Sources */,
+				2DE8BA1D224AF13D00352BBD /* OrderListViewModel.swift in Sources */,
+				2D52D17D2250674400495843 /* OrderDetailViewModel.swift in Sources */,
+				2D6852CE224433E8002CFB55 /* Token.swift in Sources */,
+				2DAF60A4224D6B4600F23689 /* OrderCell.swift in Sources */,
+				2D6852DE2245F4BA002CFB55 /* OrderListViewController.swift in Sources */,
+				2D6852D522444D62002CFB55 /* TextFieldCustom.swift in Sources */,
+				2DAF60A9224DAB0F00F23689 /* CustomTypes.swift in Sources */,
+				2D52D17B22505E9B00495843 /* OrderDetailViewController.swift in Sources */,
+				2D6852D92245A33B002CFB55 /* LoginViewModel.swift in Sources */,
+				2D7C15D82251496D00A0EEF7 /* BorderedLabel.swift in Sources */,
+				2DD1932922430E4A00304761 /* LoginViewController.swift in Sources */,
+				2DE8BA18224AE1A100352BBD /* OrderListViewController+OrderListDelegate.swift in Sources */,
+				2D965B44224C19E10035D72E /* Order.swift in Sources */,
+				2DAF60A7224D6DF200F23689 /* OrderListViewController+TableView.swift in Sources */,
 				2DD1932722430E4A00304761 /* AppDelegate.swift in Sources */,
 				2DD1932F22430E4A00304761 /* WirecardTest.xcdatamodeld in Sources */,
+				2D7C15DA2251577500A0EEF7 /* OrderDetailViewController+DetailViewDelgate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +724,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M8UJX898RF;
-				INFOPLIST_FILE = WirecardTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WirecardTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,7 +743,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M8UJX898RF;
-				INFOPLIST_FILE = WirecardTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WirecardTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
