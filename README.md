@@ -1,25 +1,19 @@
 # Pedidos Moip - Processo seletivo WireCard
 
-Aplicativo dsenvolvido para o processo seletivo da Wirecard.
+Aplicativo desenvolvido para o processo seletivo da Wirecard.
 
 Desenvolvido por Thiago Cavalcante de Oliveira.
 
 
 ## Screenshots
 
-<img src="https://i.ibb.co/wBLvYxY/Captura-de-Tela-2019-04-03-a-s-17-33-24.png" height="400">          
+<img src="https://i.ibb.co/wBLvYxY/Captura-de-Tela-2019-04-03-a-s-17-33-24.png" height="400">             <img src="https://i.ibb.co/7CS1wJG/Captura-de-Tela-2019-04-03-a-s-17-34-12.png" height="400">         <img src="https://i.ibb.co/SxChs7D/Simulator-Screen-Shot-i-Phone-8-2019-04-03-at-18-35-08.png" height="400">
 
-<img src="https://i.ibb.co/7CS1wJG/Captura-de-Tela-2019-04-03-a-s-17-34-12.png" height="400">
+Print 1 - Tela de login com textField customomizado. 
 
-<img src="https://i.ibb.co/WDB9C60/Captura-de-Tela-2019-04-03-a-s-17-34-30.png" height="400">
+Print 2 - Lista de pedidos realizados para aquele determinado login.
 
-Print 1 - Tela de login com textField customonizado. 
-
-Print 2 - Lista de pedidos realizados para aquele determinado login
-
-Print 3 - tela de detalhes de um pedido
-
-
+Print 3 - tela de detalhes de um pedido.
 
 
 ## Desafio
@@ -30,17 +24,18 @@ O objetivo do teste é simular o funcionamento do modulo de pedidos do aplicativ
 - Login: https://connect-sandbox.moip.com.br/oauth/token 
 - Lista de pedidos:  https://sandbox.moip.com.br/v2/orders
 - Detalhes do pedido:  https://sandbox.moip.com.br/v2/orders/ORDER_ID
-- Documentação
+- Documentação da API: https://dev.wirecard.com.br/reference
 
 
 ## Testes unitários
 
-Realização de todos os testes unitarios na camada viewModel(MVVM)  
-Mocks (nas camadas de service e view)
+- Realização de todos os testes unitarios na camada viewModel
+- Mocks (nas camadas de service e view)
 
-## Ferramentas utilizadas
+## Ferramentas e tecnologias utilizadas
 
-- Xcode 12
+- Xcode 10
+- iOS 12
 - Swift 4.2
 - CocoaPods
 - Codable
@@ -48,16 +43,17 @@ Mocks (nas camadas de service e view)
 
 ## Arquitetura utilizada
 
-Neste projeto estou utilizando MVVM (Movel-View-ViewModel) por ser um dos melhores padrões de arquitetura para desenvolvimento iOS.
+Neste projeto estou utilizando MVVM (Model-View-ViewModel) por ser um dos melhores padrões de arquitetura para desenvolvimento iOS.
 
 Mais informações: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
 
 ## Pods utilizados
 
-#### Alamofire (https://github.com/Alamofire/Alamofire)
-###  IQKeyboardManagerSwift (https://cocoapods.org/pods/IQKeyboardManagerSwift)
-
+#### Alamofire (https://github.com/Alamofire/Alamofire) 
 Para requisições HTTP.
+
+#### IQKeyboardManagerSwift (https://cocoapods.org/pods/IQKeyboardManagerSwift) 
+Para gerenciar o uso do teclado.
 
 
 ## Como compilar
@@ -68,6 +64,5 @@ Para requisições HTTP.
 4. Pronto. Agora basta abrir o projeto no XCode pelo arquivo **`WirecardTest.xcworkspace`**
 
 OBS: Não abra pelo **`WirecardTest.xcodeproj`** pois os pods não serão carregados e dará erro na hora de compilar.
-
 
 
