@@ -7,8 +7,8 @@ Desenvolvido por Paulo Henrique Lima Lourenço.
 
 ## Screenshots
 
-<img src="https://ibb.co/YPWrbqb" height="300"><img src="https://ibb.co/kBGSRgh" height="300">
-<img src="https://ibb.co/4s4yk72" height="300">
+<img src="https://i.ibb.co/wBLvYxY/Captura-de-Tela-2019-04-03-a-s-17-33-24.png" height="300"><img src="https://i.ibb.co/7CS1wJG/Captura-de-Tela-2019-04-03-a-s-17-34-12.png" height="300">
+<img src="https://i.ibb.co/WDB9C60/Captura-de-Tela-2019-04-03-a-s-17-34-30.png" height="300">
 
 Print 1 - Tela inicial + pull to refresh
 
