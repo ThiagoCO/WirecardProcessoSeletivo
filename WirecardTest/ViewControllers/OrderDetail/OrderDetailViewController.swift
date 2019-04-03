@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Money
 
 class OrderDetailViewController: UIViewController {
     
@@ -17,6 +16,7 @@ class OrderDetailViewController: UIViewController {
     var viewModel: OrderDetailViewModel?
     var statusColor: CGColor?
     var statusText: String?
+    
     //MARK: - Outlets
     @IBOutlet weak var orderIdLabel: UILabel!
     @IBOutlet weak var ownIdLabel: UILabel!
@@ -31,24 +31,21 @@ class OrderDetailViewController: UIViewController {
     @IBOutlet weak var resumePaymentCount: UILabel!
     @IBOutlet weak var resumeView: UIView!
     
+    //MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
         configure()
-        viewModel = OrderDetailViewModel(view: self, orderId: order?.id)
+        viewModel = OrderDetailViewModel(view: self, service: OrdersAPI(), orderId: order?.id)
     }
     
     func configure() {
         orderIdLabel.text = order?.id
         ownIdLabel.text = order?.ownId
-        valueLabel.text = (BRL(order?.amount.total ?? 0)).description
+        valueLabel.text = order?.amount.total.formatterPriceBRL()
         methodPaymentLabel.text = (order?.payments[0].fundingInstrument.method == "CREDIT_CARD") ? "Cartão de credito" : "Boleto"
         createdDateLabel.text = order?.createdAt.formaterDate()
         statusDateLabel.text = order?.updatedAt.formaterDate()
         configureStatusLabel()
-    }
-    
-    @IBAction func backButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
     }
     
     func configureStatusLabel() {
@@ -58,4 +55,11 @@ class OrderDetailViewController: UIViewController {
             statusLabel.text = text
         }
     }
+    
+    //MARK: - Actions
+    @IBAction func backButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+  
 }

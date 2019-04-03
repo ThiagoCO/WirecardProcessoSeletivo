@@ -11,25 +11,45 @@ import Foundation
 class LoginViewModel {
     
     //MARK: - Variables
-    var view: LoginViewDelegate
+    var view: LoginViewProtocol
+    var service: LoginDataSource
     
-    init(view:LoginViewController){
+    init(view:LoginViewProtocol, service: LoginDataSource){
         self.view = view
+        self.service = service
+        automaticLogIn()
+    }
+    
+    private func automaticLogIn() {
+        let userData = LoginRepository.shared.get()
+        if let user = userData.0, let password = userData.1 {
+            validateLogin(user: user, password: password)
+        }
     }
     
     func validateLogin(user: String?, password:String?) {
-        if(!(user?.isEmpty ?? true) && !(password?.isEmpty ?? true)) {
-            view.startLoad()
-            APIManager.shared.requestToken(user!, password!) {
-                self.view.stopLoad()
-                if APIManager.shared.token == nil {
-                    self.view.errorLogin()
-                }
-                else
-                {
-                    self.view.validLogin()
-                }
+        guard let user = user, let password = password else {
+            self.view.errorLogin()
+            return
+        }
+    
+        guard !user.isEmpty, !password.isEmpty else {
+            self.view.errorLogin()
+            return
+        }
+
+        view.startLoad()
+        service.requestToken(user, password) { (token) in
+            
+            guard let token = token else {
+                LoginRepository.shared.delete()
+                self.view.errorLogin()
+                return
+                
             }
+            LoginRepository.shared.save(user: user, password: password)
+            TokenRepository.shared.token = token
+            self.view.validLogin()
         }
     }
 }

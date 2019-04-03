@@ -8,16 +8,16 @@
 
 import Foundation
 
-class OrderDetail: Codable {
+struct OrderDetail: Codable {
     var payments: [PaymentDetail]
 }
 
-class PaymentDetail: Codable {
+struct PaymentDetail: Codable {
     var installmentCount: Int
     var amount: AmountDetail
 }
 
-class AmountDetail: Codable {
+struct AmountDetail: Codable {
     var total: Double
     var fees: Double
     var liquid: Double

@@ -7,13 +7,13 @@
 //
 
 import UIKit
-import Money
 
-protocol OrderListDelegate: ActivityIndicatorDelegate {
+protocol OrderListProtocol: ActivityIndicatorDelegate {
     func reloadTable()
     func setAmountView(summary: Summary)
+    func errorMessage()
 }
-extension OrderListViewController: OrderListDelegate {
+extension OrderListViewController: OrderListProtocol {
     
     func setAmountView(summary: Summary) {
         amountLabel.text = "\(summary.count) pedidos totalizando \(String(summary.amount).formatCustomMoney())"
@@ -33,6 +33,10 @@ extension OrderListViewController: OrderListDelegate {
     
     func reloadTable(){
         ordersTableView.reloadData()
+    }
+    
+    func errorMessage() {
+        self.showAlert(title: "OPS!", message: "Ocorreu algum problema na conexão tente novamente")
     }
     
 }

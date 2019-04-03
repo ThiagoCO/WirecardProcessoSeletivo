@@ -21,6 +21,6 @@ class OrderListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        viewModel = OrderListViewModel(view: self)
+        viewModel = OrderListViewModel(view: self, service: OrdersAPI())
     }
 }

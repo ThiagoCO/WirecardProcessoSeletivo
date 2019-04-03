@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Order: Codable {
+struct Order: Codable {
     var id: String
     var ownId: String
     var amount: Amount
@@ -16,31 +16,31 @@ class Order: Codable {
     var customer: Customer
     var createdAt: String
     var updatedAt: String
-    var payments: [Payments]
+    var payments: [Payment]
 }
 
-class OrderList : Codable {
+struct OrderList : Codable {
     var summary: Summary
     var orders: [Order]
 }
 
-class Summary: Codable {
+struct Summary: Codable {
     var count: Int
     var amount: Int
 }
 
-class Amount: Codable {
-    var total: Int
+struct Amount: Codable {
+    var total: Double
 }
 
-class Customer: Codable {
+struct Customer: Codable {
     var email: String
 }
 
-class Payments: Codable {
+struct Payment: Codable {
     var fundingInstrument: FundingInstrument
 }
 
-class FundingInstrument: Codable {
+struct FundingInstrument: Codable {
     var method: String
 }

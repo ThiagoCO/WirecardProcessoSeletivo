@@ -55,10 +55,7 @@ class TextFieldCustom: UITextField {
         if isSecureTextEntry {
             configureRightView()
         }
-    
         configureBottomLine()
-       
-        
     }
     
     func configureBottomLine() {

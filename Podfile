@@ -7,7 +7,7 @@ target 'WirecardTest' do
 
   pod 'IQKeyboardManagerSwift'
   pod 'Alamofire'
-    pod 'Money', :git => 'https://github.com/danthorpe/Money.git', :branch => 'MNY-79_updates_for_xcode_9'
+
   target 'WirecardTestTests' do
     inherit! :search_paths
     # Pods for testing

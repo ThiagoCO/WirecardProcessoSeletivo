@@ -10,26 +10,33 @@ import Foundation
 
 class OrderDetailViewModel {
     
-    var view:DetailViewDelegate
+    //MARK: - Proprities
+    var view:DetailViewProtocol
     var orderId: String?
+    var service: OrdersDataSource
     
-    init(view:DetailViewDelegate, orderId:String?) {
+    //MARK: - Functions
+    init(view: DetailViewProtocol, service: OrdersDataSource, orderId: String?) {
         self.view = view
         self.orderId = orderId
+        self.service = service
         getOrderDetail()
+
     }
     
     func getOrderDetail() {
         view.startLoad()
         if let id = orderId {
-            APIManager.shared.getOrderDetail(orderId: id) { (orderDetail) in
+            service.getOrderDetail(orderId: id) { (orderDetail) in
                 if let detail = orderDetail {
                     self.view.setResumeOrderDetail(detail)
+                }
+                else {
+                    self.view.errorMessage()
                 }
                 self.view.stopLoad()
             }
         }
-        
     }
 }
  

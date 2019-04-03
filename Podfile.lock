@@ -1,37 +1,20 @@
 PODS:
   - Alamofire (4.7.3)
   - IQKeyboardManagerSwift (6.2.0)
-  - Money (2.0.1):
-    - ValueCoding (~> 2)
-  - ValueCoding (2.2.0)
 
 DEPENDENCIES:
   - Alamofire
   - IQKeyboardManagerSwift
-  - Money (from `https://github.com/danthorpe/Money.git`, branch `MNY-79_updates_for_xcode_9`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - IQKeyboardManagerSwift
-    - ValueCoding
-
-EXTERNAL SOURCES:
-  Money:
-    :branch: MNY-79_updates_for_xcode_9
-    :git: https://github.com/danthorpe/Money.git
-
-CHECKOUT OPTIONS:
-  Money:
-    :commit: 49d693ddd4fcb6316e64257f06d79f35add6691c
-    :git: https://github.com/danthorpe/Money.git
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
-  Money: 3babd4c04fbf3251d30abe374a64fa8fed29ec64
-  ValueCoding: dd37df7966fb14d5238c19e2f88c86ac4064ef96
 
-PODFILE CHECKSUM: d4f49f7049afe2f072221177a5b8e823d4750cf2
+PODFILE CHECKSUM: 74958f784c7b6808f50d2217346d2a0b877158af
 
 COCOAPODS: 1.5.3

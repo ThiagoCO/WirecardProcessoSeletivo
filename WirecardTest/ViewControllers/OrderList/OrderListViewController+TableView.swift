@@ -10,6 +10,7 @@ import UIKit
 
 extension OrderListViewController: UITableViewDelegate, UITableViewDataSource {
     
+    //MARK: - Extension Functions
     func setupTableView() {
         self.ordersTableView.dataSource = self
         self.ordersTableView.delegate = self
@@ -22,13 +23,13 @@ extension OrderListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "orderCell", for: indexPath) as! OrderCell
         if let viewModel = viewModel {
-            viewModel.getOrderByIndex(index: indexPath.row, completed: { (order) in
+            if let order = viewModel.orderList?.orders[indexPath.row] {
                 cell.configure(order: order)
                 let statusConfig = viewModel.configureStatusLabel(index: indexPath.row)
                 cell.statusLabel.layer.borderColor = statusConfig.0
                 cell.statusLabel.text = statusConfig.1
                 cell.statusLabel.textColor = UIColor(cgColor: statusConfig.0)
-            })
+            }
         }
         return cell
     }

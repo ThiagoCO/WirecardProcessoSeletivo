@@ -22,11 +22,13 @@ class LoginViewController: UIViewController {
     //MARK: - Functions
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = LoginViewModel(view: self)
+        viewModel = LoginViewModel(view: self, service: LoginAPI())
     }
     
+    //MARK: - Actions
     @IBAction func buttonLogin(_ sender: Any) {
         viewModel?.validateLogin(user: "moip-test-developer@moip.com.br", password: "testemoip123")
     }
+    
 }
 

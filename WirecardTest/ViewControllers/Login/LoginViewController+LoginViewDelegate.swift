@@ -8,12 +8,13 @@
 
 import UIKit
 
-protocol LoginViewDelegate: ActivityIndicatorDelegate{
+protocol LoginViewProtocol: ActivityIndicatorDelegate{
     func validLogin()
     func errorLogin()
 }
-extension LoginViewController: LoginViewDelegate {
+extension LoginViewController: LoginViewProtocol {
     
+    //MARK: - Extensions Functions
     func stopLoad() {
         hideLogin()
         activityIndicator.removeFromSuperview()
@@ -33,7 +34,7 @@ extension LoginViewController: LoginViewDelegate {
     }
     
     func errorLogin() {
-        
+        self.showAlert(title: "Tente Novamente", message: "usuario ou senha incorretos")
     }
     
     func hideLogin() {

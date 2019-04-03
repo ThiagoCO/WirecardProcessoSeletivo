@@ -11,7 +11,7 @@ import Alamofire
 
 class APIManager {
     
-    //MARK: = Variables
+    //MARK: - Variables
     static let shared = APIManager()
     let clientId = "APP-H1DR0RPHV7SP"
     let clientSecret = "05acb6e128bc48b2999582cd9a2b9787"
@@ -20,13 +20,13 @@ class APIManager {
     let scope = "APP_ADMIN"
     var token:Token?
     
-    func requestToken(_ user:String, _ password:String, completed:@escaping() -> Void) {
-        
+    //MARK: - Functions
+    func requestToken(_ user:String, _ password:String, completed:@escaping(_ status:Bool) -> Void) {
         Alamofire.request("https://connect-sandbox.moip.com.br/oauth/token", method: .post, parameters: configureParameter(user, password), encoding: URLEncoding.default, headers: configureHeader(token: nil)).responseJSON { response in
             if let data = response.data {
                 let token = try? JSONDecoder().decode(Token.self, from: data)
                 self.token = token
-                completed()
+                completed((token != nil))
             }
         }
     }
@@ -48,7 +48,7 @@ class APIManager {
             }
         }
     }
-    
+   
     private func configureHeader(token:String?) -> Dictionary<String,String> {
         let header: HTTPHeaders = (token == nil) ?
             ["Content-Type": "application/x-www-form-urlencoded"] :

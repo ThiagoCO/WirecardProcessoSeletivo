@@ -7,17 +7,17 @@
 //
 
 import Foundation
-import Money
 
-protocol DetailViewDelegate: ActivityIndicatorDelegate {
+protocol DetailViewProtocol: ActivityIndicatorDelegate {
     func setResumeOrderDetail(_ orderDetail: OrderDetail)
+    func errorMessage()
 }
-extension OrderDetailViewController: DetailViewDelegate {
+extension OrderDetailViewController: DetailViewProtocol {
     
     func setResumeOrderDetail(_ orderDetail: OrderDetail) {
-        resumeValueLabel.text = "+ \(BRL(floatLiteral: orderDetail.payments[0].amount.total).description)"
-        resumeFeesLabel.text = "- \(BRL(floatLiteral: orderDetail.payments[0].amount.fees).description)"
-        resumeLiquidValueLabel.text = "= \(BRL(floatLiteral: orderDetail.payments[0].amount.liquid).description)"
+        resumeValueLabel.text = "+ \(orderDetail.payments[0].amount.total.formatterPriceBRL())"
+        resumeFeesLabel.text = "- \(orderDetail.payments[0].amount.fees.formatterPriceBRL())"
+        resumeLiquidValueLabel.text = "= \(orderDetail.payments[0].amount.liquid.formatterPriceBRL())"
         resumePaymentCount.text = "\(orderDetail.payments[0].installmentCount) pagamentos"
     }
     
@@ -33,5 +33,8 @@ extension OrderDetailViewController: DetailViewDelegate {
         activityIndicator.startAnimating()
     }
     
+    func errorMessage() {
+        self.showAlert(title: "OPS!", message: "Ocorreu algum problema na conexão tente novamente")
+    }
     
 }

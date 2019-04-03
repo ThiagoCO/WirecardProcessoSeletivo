@@ -10,21 +10,26 @@ import Foundation
 import UIKit
 
 class OrderListViewModel {
-    var view: OrderListDelegate
+    var view: OrderListProtocol
     var orderList: OrderList?
+    var service: OrdersDataSource
     
-    init(view: OrderListDelegate) {
+    init(view: OrderListProtocol, service:OrdersDataSource) {
         self.view = view
-        getOrderList()
+        self.service = service
+        self.getOrderList()
     }
     
     func getOrderList() {
         view.startLoad()
-        APIManager.shared.getOrderlist() { (orderList) in
+        service.getOrderlist() { (orderList) in
             if let orders = orderList {
                 self.orderList = orders
                 self.view.reloadTable()
                 self.view.setAmountView(summary: orders.summary)
+            }
+            else {
+                self.view.errorMessage()
             }
             self.view.stopLoad()
         }
@@ -34,13 +39,7 @@ class OrderListViewModel {
     func getOrdersCount() -> Int {
         return orderList?.orders.count ?? 0
     }
-    
-    func getOrderByIndex(index:Int,completed:@escaping(_ token:Order) -> Void) {
-        if let order = orderList?.orders[index] {
-            completed(order)
-        }
-    }
-    
+
     func configureStatusLabel(index:Int) -> (CGColor, String){
         var color = UIColor.white.cgColor
         var text = ""
@@ -52,7 +51,7 @@ class OrderListViewModel {
                     text = "PAGO"
                 case "REVERTED":
                     color = UIColor.blue.cgColor
-                    text = "Estronado"
+                    text = "ESTORNADO"
                 default:
                     color =  UIColor(red:1.00, green:0.84, blue:0.00, alpha:1.0).cgColor
                     text = "PENDENTE"
