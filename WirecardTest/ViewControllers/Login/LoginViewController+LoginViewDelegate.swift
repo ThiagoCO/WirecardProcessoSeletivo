@@ -35,6 +35,7 @@ extension LoginViewController: LoginViewProtocol {
     
     func errorLogin() {
         self.showAlert(title: "Tente Novamente", message: "usuario ou senha incorretos")
+        self.stopLoad()
     }
     
     func hideLogin() {

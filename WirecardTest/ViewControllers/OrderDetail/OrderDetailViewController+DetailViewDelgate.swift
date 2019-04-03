@@ -18,7 +18,10 @@ extension OrderDetailViewController: DetailViewProtocol {
         resumeValueLabel.text = "+ \(orderDetail.payments[0].amount.total.formatterPriceBRL())"
         resumeFeesLabel.text = "- \(orderDetail.payments[0].amount.fees.formatterPriceBRL())"
         resumeLiquidValueLabel.text = "= \(orderDetail.payments[0].amount.liquid.formatterPriceBRL())"
-        resumePaymentCount.text = "\(orderDetail.payments[0].installmentCount) pagamentos"
+        
+        let paymentCount = orderDetail.payments[0].installmentCount
+        
+        resumePaymentCount.text = "\(paymentCount) pagamento\(paymentCount > 1 ? "s" : "")"
     }
     
     func stopLoad() {
