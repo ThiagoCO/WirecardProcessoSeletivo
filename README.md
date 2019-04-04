@@ -7,11 +7,7 @@ Desenvolvido por Thiago Cavalcante de Oliveira.
 
 ## Screenshots
 
-<<<<<<< HEAD
-<img src="https://i.ibb.co/wBLvYxY/Captura-de-Tela-2019-04-03-a-s-17-33-24.png" height="400">             <img src="https://i.ibb.co/7CS1wJG/Captura-de-Tela-2019-04-03-a-s-17-34-12.png" height="400">         <img src="https://i.ibb.co/SxChs7D/Simulator-Screen-Shot-i-Phone-8-2019-04-03-at-18-35-08.png" height="400">
-=======
 <img src="https://i.ibb.co/wBLvYxY/Captura-de-Tela-2019-04-03-a-s-17-33-24.png" height="400">             <img src="https://i.ibb.co/7CS1wJG/Captura-de-Tela-2019-04-03-a-s-17-34-12.png" height="400">         <img src="https://i.ibb.co/SxChs7D/Simulator-Screen-Shot-i-Phone-8-2019-04-03-at-18-35-08.png">
->>>>>>> 400acfab19830559829bda0882848ae94939faa2
 
 Print 1 - Tela de login com textField customomizado. 
 
